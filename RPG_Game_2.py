@@ -1,7 +1,7 @@
 import random
 
 class entity:
-    def __init__(self, name, hp, armor, dodge, mana, attack, potions):    # Entity's name, health, armor, dodge chance, mana, attack and potions numbers
+    def __init__(self, name, hp, armor, dodge, mana, attack, potions):
         self.name = name
         self.hp = hp
         self.current_hp = hp
